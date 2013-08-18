@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD201F8117C172F7002308BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201F8017C172F7002308BF /* UIKit.framework */; };
+		BD201F8317C172F7002308BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201F8217C172F7002308BF /* Foundation.framework */; };
+		BD201F8517C172F7002308BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201F8417C172F7002308BF /* CoreGraphics.framework */; };
+		BD201F8B17C172F7002308BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD201F8917C172F7002308BF /* InfoPlist.strings */; };
+		BD201F8D17C172F7002308BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD201F8C17C172F7002308BF /* main.m */; };
+		BD201F9117C172F7002308BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD201F9017C172F7002308BF /* AppDelegate.m */; };
+		BD201F9317C172F7002308BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD201F9217C172F7002308BF /* Default.png */; };
+		BD201F9517C172F7002308BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD201F9417C172F7002308BF /* Default@2x.png */; };
+		BD201F9717C172F7002308BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD201F9617C172F7002308BF /* Default-568h@2x.png */; };
+		BD201F9A17C172F7002308BF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD201F9817C172F7002308BF /* MainStoryboard_iPhone.storyboard */; };
+		BD201F9D17C172F7002308BF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD201F9B17C172F7002308BF /* MainStoryboard_iPad.storyboard */; };
+		BD201FA017C172F7002308BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD201F9F17C172F7002308BF /* ViewController.m */; };
+		BD201FA817C172F7002308BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201FA717C172F7002308BF /* SenTestingKit.framework */; };
+		BD201FA917C172F7002308BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201F8017C172F7002308BF /* UIKit.framework */; };
+		BD201FAA17C172F7002308BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201F8217C172F7002308BF /* Foundation.framework */; };
+		BD201FB217C172F7002308BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD201FB017C172F7002308BF /* InfoPlist.strings */; };
+		BD201FB517C172F7002308BF /* MaikuAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD201FB417C172F7002308BF /* MaikuAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD201FAB17C172F7002308BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD201F7517C172F7002308BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD201F7C17C172F7002308BF;
+			remoteInfo = MaikuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD201F7D17C172F7002308BF /* MaikuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaikuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD201F8017C172F7002308BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD201F8217C172F7002308BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD201F8417C172F7002308BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD201F8817C172F7002308BF /* MaikuApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaikuApp-Info.plist"; sourceTree = "<group>"; };
+		BD201F8A17C172F7002308BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD201F8C17C172F7002308BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD201F8E17C172F7002308BF /* MaikuApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaikuApp-Prefix.pch"; sourceTree = "<group>"; };
+		BD201F8F17C172F7002308BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD201F9017C172F7002308BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD201F9217C172F7002308BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD201F9417C172F7002308BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD201F9617C172F7002308BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD201F9917C172F7002308BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BD201F9C17C172F7002308BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BD201F9E17C172F7002308BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD201F9F17C172F7002308BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD201FA617C172F7002308BF /* MaikuAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaikuAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD201FA717C172F7002308BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD201FAF17C172F7002308BF /* MaikuAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaikuAppTests-Info.plist"; sourceTree = "<group>"; };
+		BD201FB117C172F7002308BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD201FB317C172F7002308BF /* MaikuAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaikuAppTests.h; sourceTree = "<group>"; };
+		BD201FB417C172F7002308BF /* MaikuAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaikuAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD201F7A17C172F7002308BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201F8117C172F7002308BF /* UIKit.framework in Frameworks */,
+				BD201F8317C172F7002308BF /* Foundation.framework in Frameworks */,
+				BD201F8517C172F7002308BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD201FA217C172F7002308BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201FA817C172F7002308BF /* SenTestingKit.framework in Frameworks */,
+				BD201FA917C172F7002308BF /* UIKit.framework in Frameworks */,
+				BD201FAA17C172F7002308BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD201F7417C172F7002308BF = {
+			isa = PBXGroup;
+			children = (
+				BD201F8617C172F7002308BF /* MaikuApp */,
+				BD201FAD17C172F7002308BF /* MaikuAppTests */,
+				BD201F7F17C172F7002308BF /* Frameworks */,
+				BD201F7E17C172F7002308BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD201F7E17C172F7002308BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD201F7D17C172F7002308BF /* MaikuApp.app */,
+				BD201FA617C172F7002308BF /* MaikuAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD201F7F17C172F7002308BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD201F8017C172F7002308BF /* UIKit.framework */,
+				BD201F8217C172F7002308BF /* Foundation.framework */,
+				BD201F8417C172F7002308BF /* CoreGraphics.framework */,
+				BD201FA717C172F7002308BF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD201F8617C172F7002308BF /* MaikuApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD201F8F17C172F7002308BF /* AppDelegate.h */,
+				BD201F9017C172F7002308BF /* AppDelegate.m */,
+				BD201F9817C172F7002308BF /* MainStoryboard_iPhone.storyboard */,
+				BD201F9B17C172F7002308BF /* MainStoryboard_iPad.storyboard */,
+				BD201F9E17C172F7002308BF /* ViewController.h */,
+				BD201F9F17C172F7002308BF /* ViewController.m */,
+				BD201F8717C172F7002308BF /* Supporting Files */,
+			);
+			path = MaikuApp;
+			sourceTree = "<group>";
+		};
+		BD201F8717C172F7002308BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD201F8817C172F7002308BF /* MaikuApp-Info.plist */,
+				BD201F8917C172F7002308BF /* InfoPlist.strings */,
+				BD201F8C17C172F7002308BF /* main.m */,
+				BD201F8E17C172F7002308BF /* MaikuApp-Prefix.pch */,
+				BD201F9217C172F7002308BF /* Default.png */,
+				BD201F9417C172F7002308BF /* Default@2x.png */,
+				BD201F9617C172F7002308BF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD201FAD17C172F7002308BF /* MaikuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD201FB317C172F7002308BF /* MaikuAppTests.h */,
+				BD201FB417C172F7002308BF /* MaikuAppTests.m */,
+				BD201FAE17C172F7002308BF /* Supporting Files */,
+			);
+			path = MaikuAppTests;
+			sourceTree = "<group>";
+		};
+		BD201FAE17C172F7002308BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD201FAF17C172F7002308BF /* MaikuAppTests-Info.plist */,
+				BD201FB017C172F7002308BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD201F7C17C172F7002308BF /* MaikuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD201FB817C172F7002308BF /* Build configuration list for PBXNativeTarget "MaikuApp" */;
+			buildPhases = (
+				BD201F7917C172F7002308BF /* Sources */,
+				BD201F7A17C172F7002308BF /* Frameworks */,
+				BD201F7B17C172F7002308BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaikuApp;
+			productName = MaikuApp;
+			productReference = BD201F7D17C172F7002308BF /* MaikuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD201FA517C172F7002308BF /* MaikuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD201FBB17C172F7002308BF /* Build configuration list for PBXNativeTarget "MaikuAppTests" */;
+			buildPhases = (
+				BD201FA117C172F7002308BF /* Sources */,
+				BD201FA217C172F7002308BF /* Frameworks */,
+				BD201FA317C172F7002308BF /* Resources */,
+				BD201FA417C172F7002308BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD201FAC17C172F7002308BF /* PBXTargetDependency */,
+			);
+			name = MaikuAppTests;
+			productName = MaikuAppTests;
+			productReference = BD201FA617C172F7002308BF /* MaikuAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD201F7517C172F7002308BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cynosaur Apps";
+			};
+			buildConfigurationList = BD201F7817C172F7002308BF /* Build configuration list for PBXProject "MaikuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD201F7417C172F7002308BF;
+			productRefGroup = BD201F7E17C172F7002308BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD201F7C17C172F7002308BF /* MaikuApp */,
+				BD201FA517C172F7002308BF /* MaikuAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD201F7B17C172F7002308BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201F8B17C172F7002308BF /* InfoPlist.strings in Resources */,
+				BD201F9317C172F7002308BF /* Default.png in Resources */,
+				BD201F9517C172F7002308BF /* Default@2x.png in Resources */,
+				BD201F9717C172F7002308BF /* Default-568h@2x.png in Resources */,
+				BD201F9A17C172F7002308BF /* MainStoryboard_iPhone.storyboard in Resources */,
+				BD201F9D17C172F7002308BF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD201FA317C172F7002308BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201FB217C172F7002308BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD201FA417C172F7002308BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD201F7917C172F7002308BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201F8D17C172F7002308BF /* main.m in Sources */,
+				BD201F9117C172F7002308BF /* AppDelegate.m in Sources */,
+				BD201FA017C172F7002308BF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD201FA117C172F7002308BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD201FB517C172F7002308BF /* MaikuAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD201FAC17C172F7002308BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD201F7C17C172F7002308BF /* MaikuApp */;
+			targetProxy = BD201FAB17C172F7002308BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD201F8917C172F7002308BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD201F8A17C172F7002308BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD201F9817C172F7002308BF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD201F9917C172F7002308BF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BD201F9B17C172F7002308BF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD201F9C17C172F7002308BF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BD201FB017C172F7002308BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD201FB117C172F7002308BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD201FB617C172F7002308BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD201FB717C172F7002308BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD201FB917C172F7002308BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaikuApp/MaikuApp-Prefix.pch";
+				INFOPLIST_FILE = "MaikuApp/MaikuApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD201FBA17C172F7002308BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaikuApp/MaikuApp-Prefix.pch";
+				INFOPLIST_FILE = "MaikuApp/MaikuApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD201FBC17C172F7002308BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaikuApp.app/MaikuApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaikuApp/MaikuApp-Prefix.pch";
+				INFOPLIST_FILE = "MaikuAppTests/MaikuAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD201FBD17C172F7002308BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaikuApp.app/MaikuApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaikuApp/MaikuApp-Prefix.pch";
+				INFOPLIST_FILE = "MaikuAppTests/MaikuAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD201F7817C172F7002308BF /* Build configuration list for PBXProject "MaikuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD201FB617C172F7002308BF /* Debug */,
+				BD201FB717C172F7002308BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD201FB817C172F7002308BF /* Build configuration list for PBXNativeTarget "MaikuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD201FB917C172F7002308BF /* Debug */,
+				BD201FBA17C172F7002308BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD201FBB17C172F7002308BF /* Build configuration list for PBXNativeTarget "MaikuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD201FBC17C172F7002308BF /* Debug */,
+				BD201FBD17C172F7002308BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD201F7517C172F7002308BF /* Project object */;
+}
