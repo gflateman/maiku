@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Cynosaur Apps. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FeedViewController.h"
 
-@interface ViewController ()
+@interface FeedViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FeedViewController
 @synthesize userName = _userName;
 
 - (void)viewDidLoad
