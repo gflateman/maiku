@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface FeedViewController : UIViewController <UITextFieldDelegate>
 - (IBAction)changeGreeting:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
